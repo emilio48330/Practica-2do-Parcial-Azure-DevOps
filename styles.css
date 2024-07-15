@@ -1,0 +1,83 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Merriweather', serif;
+}
+.navbar {
+    background-color: #3c1053 !important;
+}
+.navbar-brand, .nav-link {
+    color: #ffffff !important;
+}
+.card {
+    transition: transform 0.3s ease-in-out;
+}
+.card:hover {
+    transform: translateY(-5px);
+}
+.instagram-comment {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    padding: 12px;
+    margin-bottom: 16px;
+    background-color: #ffffff;
+}
+
+.comment-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.user-avatar {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    background-color: #3897f0;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.username {
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.book-title {
+    font-size: 12px;
+    color: #8e8e8e;
+}
+
+.comment-content {
+    font-size: 14px;
+    margin-bottom: 8px;
+}
+
+.comment-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    color: #8e8e8e;
+}
+
+.comment-actions a {
+    color: #8e8e8e;
+    text-decoration: none;
+    margin-left: 16px;
+}
+
+.comment-actions a:hover {
+    color: #3897f0;
+}
+
